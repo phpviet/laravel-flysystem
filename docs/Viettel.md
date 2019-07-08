@@ -11,7 +11,7 @@ composer require league/flysystem-aws-s3-v2
 
 ### Cấu hình
 
-Sau khi cài đặt xong bạn hãy mở file `config/filesystems.php` để cấu hình Viettel trong mục `disks`:
+Sau khi cài đặt xong bạn hãy mở file `config/filesystems.php` để cấu hình Viettel cloud storage trong mục `disks`:
 
 ```php
 ....
