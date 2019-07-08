@@ -27,7 +27,7 @@ abstract class BaseDriver
     protected $config;
 
     /**
-     * Khởi tạo đối tượng Driver.
+     * Khởi tạo đối tượng Filesystem thông qua callable.
      *
      * @param  \Illuminate\Contracts\Foundation\Application  $app
      * @param  array  $config
