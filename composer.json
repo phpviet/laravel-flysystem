@@ -1,0 +1,56 @@
+{
+    "name": "phpviet/laravel-flysystem",
+    "description": "Laravel Flysystem hổ trợ tích hợp các dịch vụ lưu trữ đám mây (cloud storage) trong nước.",
+    "keywords": [
+        "phpviet",
+        "laravel-flysystem",
+        "flysystem",
+        "viettel-cloud-storage"
+    ],
+    "homepage": "https://github.com/phpviet/laravel-flysystem",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vuong Xuong Minh",
+            "email": "vuongxuongminh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/filesystem": "^5.7",
+        "illuminate/support": "^5.7"
+    },
+    "require-dev": {
+        "league/flysystem-aws-s3-v2": "^1.0",
+        "league/flysystem-cached-adapter": "^1.0",
+        "orchestra/testbench": "^3.7",
+        "phpunit/phpunit": "~7.5",
+        "scrutinizer/ocular": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPViet\\Laravel\\Flysystem\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PHPViet\\Laravel\\Flysystem\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "\"vendor/bin/phpunit\""
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "PHPViet\\Laravel\\Flysystem\\FlysystemServiceProvider"
+            ]
+        }
+    }
+}
