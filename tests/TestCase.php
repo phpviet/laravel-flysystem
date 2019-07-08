@@ -26,9 +26,9 @@ class TestCase extends BaseTestCase
                     'driver' => 'viettel',
                     'key' => 'test',
                     'secret' => 'test',
-                    'bucket' => 'test'
+                    'bucket' => 'test',
                 ],
-            ]
+            ],
         ]);
     }
 
