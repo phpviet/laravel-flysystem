@@ -24,7 +24,7 @@ class AwsS3v2Adapter extends AwsS3Adapter
      * @param  array  $options
      * @return string
      */
-    public function getTemporaryUrl(string $path, DateTimeInterface $expiration, array $options = [])
+    public function getTemporaryUrl(string $path, DateTimeInterface $expiration, array $options = []): string
     {
         return (string) $this->getClient()->getObjectUrl(
             $this->getBucket(),

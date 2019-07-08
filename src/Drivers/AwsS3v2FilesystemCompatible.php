@@ -16,10 +16,10 @@ trait AwsS3v2FilesystemCompatible
     /**
      * Trả về AWS S3v2 URL theo đường dẫn chỉ định.
      *
-     * @param $path
+     * @param  string  $path
      * @return string
      */
-    public function getUrl($path): string
+    public function getUrl(string $path): string
     {
         $adapter = $this->getAdapter();
 
