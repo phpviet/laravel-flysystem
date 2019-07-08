@@ -8,7 +8,7 @@
     <a href="https://packagist.org/packages/phpviet/laravel-flysystem"><img src="https://img.shields.io/packagist/v/phpviet/laravel-flysystem.svg?style=flat-square" alt="Latest version"></a>
     <a href="https://travis-ci.org/phpviet/laravel-flysystem"><img src="https://img.shields.io/travis/phpviet/laravel-flysystem/master.svg?style=flat-square" alt="Build status"></a>
     <a href="https://scrutinizer-ci.com/g/phpviet/laravel-flysystem"><img src="https://img.shields.io/scrutinizer/g/phpviet/laravel-flysystem.svg?style=flat-square" alt="Quantity score"></a>
-    <a href="https://styleci.io/repos/189053932"><img src="https://styleci.io/repos/189053932/shield?branch=master" alt="StyleCI"></a>
+    <a href="https://styleci.io/repos/195608116"><img src="https://styleci.io/repos/195608116/shield?branch=master" alt="StyleCI"></a>
     <a href="https://packagist.org/packages/phpviet/laravel-flysystem"><img src="https://img.shields.io/packagist/dt/phpviet/laravel-flysystem.svg?style=flat-square" alt="Total download"></a>
     <a href="https://packagist.org/packages/phpviet/laravel-flysystem"><img src="https://img.shields.io/packagist/l/phpviet/laravel-flysystem.svg?style=flat-square" alt="License"></a>
     </p>
