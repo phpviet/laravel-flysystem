@@ -25,11 +25,17 @@ class FlysystemServiceProvider extends ServiceProvider
         'viettel' => ViettelDriver::class,
     ];
 
+    /**
+     * {@inheritdoc}
+     */
     public function register(): void
     {
         $this->registerDrivers();
     }
 
+    /**
+     * Đăng ký các storage drivers của package.
+     */
     protected function registerDrivers(): void
     {
         $this->app->extend('filesystem', function (FilesystemManager $manager) {
