@@ -20,7 +20,7 @@ Package hổ trợ bạn tích hợp các dịch vụ lưu trữ đám mây (clo
 
 Các dịch vụ lưu trữ đang được hổ trợ:
 
-+ **[Viettel](https://viettelidc.com.vn)**
++ **[Viettel Cloud Storage](https://viettelidc.com.vn/cloud-storage)**
 
 
 ## Cài đặt
