@@ -22,16 +22,15 @@ trait AwsS3v2FilesystemCompatible
     public function getUrl(string $path): string
     {
         $adapter = $this->getAdapter();
+        $path = $adapter->getPathPrefix().$path;
 
         if (! is_null($url = $this->getConfig()->get('url'))) {
-            $path = $adapter->getPathPrefix().$path;
-
             return rtrim($url, '/').'/'.ltrim($path, '/');
         }
 
         return $adapter->getClient()->getObjectUrl(
             $adapter->getBucket(),
-            $adapter->getPathPrefix().$path
+            $path
         );
     }
 }
